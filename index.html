@@ -1,0 +1,156 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Website</title>
+		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet" type="text/css">
+		<script src = "https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+      		<div class="container">
+        	<div class="navbar-header">
+          		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            		<span class="sr-only">Toggle navigation</span>
+            		<span class="icon-bar"></span>
+            		<span class="icon-bar"></span>
+            		<span class="icon-bar"></span>
+          		</button>
+          			<a class="navbar-brand" href="#">JHP Studios</a>
+        	</div>
+        	<div id="navbar" class="collapse navbar-collapse">
+        		<!-- Controls the top control panel -->
+          		<ul class="nav navbar-nav navbar-right">
+          			<li class ="#home"><a href="#home">Home</a></li>
+            		<li class="#about"><a href="#about">About</a></li>
+            		<li><a href="#portfolio">Portfolio</a></li>
+            		<li><a href="#contact">Contact</a></li>
+          		</ul>
+        	</div><!--/.nav-collapse -->
+      		</div>
+   		</nav>
+
+   		<section id = "home">
+   			<div class = "container">
+   				<div class = "col-md-12 col-sm-12">
+   					<h1>Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek.</h1>
+   					<h2 class = "customer">-Barrack Obama</h2>
+   				</div>
+   			</div>
+    	</section>
+
+    	<section id = "about">
+    		<div class = "container">
+    			<div class = "row">
+    				<div class = "col-md-8 col-sm-8">
+    					<h1>About Me</h1>
+    					<p> I am an aspiring engineer who believes that it's not important what degree you get but what you went through to get to your degree. This led me to gain a diverse range of experience from the field of sports and recreation,  health care and awareness to even global education and consultation over the past 3 years of my post-secondary. Therefore, being a passionate, diligent and result driven person, I have set my journey only to succeed. </p>
+    				</div>
+    				<div class = "col-md-4 col-sm-4">
+    					<img src = "img/justme.jpg">
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+
+    	<section id="portfolio">
+    		<div class= "container">
+    			<h3> Portfolio </h3>
+    			<div class="row">
+    				<div class = "col-md-6 col-sm-6">
+    					<img src ="img/imager1.jpg">
+    				</div>
+    				<div class = "col-md-6 col-sm-6">
+    					<h4> Random thing </h4>
+    					<p> Something about something that I did before which I did something there cause I wanted to and it was fun because I dont have anything to write here yet but yeah that was good also.</p>
+    				</div> 
+    			</div>
+    		</div>
+    	</section>
+
+    	<section id = "contact">
+    		<div class ="container">
+    			<div class = "row">
+    				<div class = "col-md-5 col-sm-5">
+    					<form>
+    						<div class="form-group">
+    							<label>Name: </label>
+    							<input class = "form-control" type="text" name="" value = "" placeholder="Enter Name: ">
+    						</div>
+    						<div class = "form-group">
+    							<label>Email: </label>
+    							<input class = "form-control" type="text" name = "" value = "" placeholder="Enter Email: ">
+    						</div>
+    						<div class = "form-group">
+    							<label>Message: </label>
+    							<textarea class="form-control" name = "" value = "" placeholder="Put message here"></textarea>
+    						</div>
+    						<button class= "btn btn-default btn-lg">Submit</button>
+    					</form>
+    				</div>
+    				<div class="col-md-7 col-sm-7">
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+
+    	<section id = "buttonsbot">
+    		<div class = "container">
+    			<div class = "row">
+    				<div class = "col-md-8 col-sm-8">
+    					</div>
+    				<div class="col-md-1 col-sm-1">
+    					<div id="linkedinbutton">
+    						<a href="https://www.linkedin.com/in/joon-hyuk-mark-park-baa322102/"><img src = "img/linkedin.jpg"></a>
+    					</div>
+    				</div>
+    				<div class="col-md-1 col-sm-1">
+    					<div id="githubbutton">
+    						<a href="https://github.com/park92"><img src = "img/github.png"></a>
+    					</div>
+    				</div>
+    				<div class = "col-md-2 col-sm-2">
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+
+    	<footer>
+    		<p class = "text-center">JHP Studios Copyright 2017</p>
+    	</footer>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!-- Scroll Animation -->
+		<script>
+			window.sr = ScrollReveal();
+
+			sr.reveal('.navbar', {duration:2000, origin:'bottom'})
+
+			sr.reveal('#about', {duration:2000, origin:'left', distance:300px, viewFactor: 0.2})
+
+			sr.reveal('#portfolio', {duration:2000, delay:2000, origin:'right', distance: 100px, viewFactor: 0.1})
+		</script>
+
+    	<script>
+			$(function() {
+      			// Smooth Scrolling
+      			$('a[href*="#"]:not([href="#"])').click(function() {
+        			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          				var target = $(this.hash);
+          				target = target.length ? target : $('[name='+ this.hash.slice(1) +']');
+          			if (target.length) { $('html, body').animate({
+              		scrollTop: target.offset().top
+            		}, 1000);
+            	return false;
+          			}
+        			}
+      			});
+    		});
+		</script>
+
+	</body>
+</html>
